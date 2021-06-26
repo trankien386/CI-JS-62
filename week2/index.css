@@ -11,8 +11,8 @@ body {
   width: 390px;
 }
 
-.card-container .title, .card-info {
-  margin: 15px;
+.card-container .title {
+  margin: 15px 0 0 15px;
 }
 
 .card-container .card-info {
@@ -20,10 +20,26 @@ body {
   background-color: #fff;
   border-radius: 12px;
 }
+
+.card-container .card-info .img {
+  margin: 0 15px;
+}
+
 .card-container .card-info img {
   object-fit: contain;
   width: 100%;
   height: 100%;
-  margin: 15px;
   border-radius: 12px;
+  margin: 15px 0 0 0;
+}
+
+.card-container .card-info .card-desc {
+  margin: 0 15px;
+}
+
+.card-container .card-info .card-desc .card-content {
+  font-size: 14px;
+  line-height: 1.4em;
+  padding: 0 0 15px 0;
+  margin: 0;
 }
