@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+.card-container {
+  margin: 15px;
+  border: 1px solid white;
+  box-shadow: 0 0 8px rgb(189, 187, 187);
+  border-radius: 12px;
+  background-color: rgb(250, 249, 249);
+  width: 390px;
+}
+
+.card-container .title, .card-info {
+  margin: 15px;
+}
+
+.card-container .card-info {
+  margin: 18px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.card-container .card-info img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  margin: 15px;
+  border-radius: 12px;
+}
