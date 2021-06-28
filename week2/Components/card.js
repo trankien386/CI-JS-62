@@ -34,16 +34,12 @@ class card extends HTMLElement {
 }
 
 const style = `
-  body {
-    margin: 0;
-  }
-  
   .card-container {
     margin: 15px;
     border: 1px solid white;
     box-shadow: 0 0 8px rgb(189, 187, 187);
     border-radius: 12px;
-    background-color: rgb(250, 249, 249);
+    background-color: rgb(250, 250, 250);
     width: 390px;
   }
   
