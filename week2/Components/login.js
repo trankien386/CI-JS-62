@@ -71,10 +71,18 @@ const style = `
     background-color: rgb(240, 46, 46);
   }
   
-  .login-container #login-form #new-account {
+  .login-container #new-account {
     text-align: center;
     color:rgb(117, 117, 117);
     margin: 0 0 20px 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  a, a:visited, a:hover, a:active {
+    color: inherit;
   }
 `
 
